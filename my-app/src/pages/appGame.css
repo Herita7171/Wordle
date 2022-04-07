@@ -1,0 +1,113 @@
+.box{
+  width: 100%;
+}
+.box .line{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.box .line .btn{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.box .line input{
+  background-color: #282C34;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 40px;
+  height: 40px;
+}
+.box .header{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.words{
+  width: 100%;
+}
+.words span{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  border-radius: 2px;
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+}
+.true-word{
+  width: 100%;
+}
+.true-word span{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  border-radius: 2px;
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  background-color: #000;
+}
+.words span.done{
+  background-color: #66FF66;
+}
+.words span.error{
+  background-color: #CC0033;
+}
+.words span.none{
+  background-color: #000;
+}
+.example{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.example .list{
+  width: 100%;
+  overflow: hidden;
+}
+.example .list span{
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.example .list span.select{
+  background-color: #3333FF;
+}
+.answer-success{
+  line-height: 40px;
+  color: #66FF66;
+}
+.answer-error{
+  line-height: 40px;
+  color: #CC0033;
+}
+.chance{
+  margin-right: 5px;
+  font-size: 20px;
+}
+#remain{
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+.word-length{
+  margin-bottom: 20px;
+}
+.event {
+  background-color: rgb(163, 161, 161);
+  font-weight: bold;
+  font-size: 15px;
+}
+.back {
+  padding: 5;
+}
